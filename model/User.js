@@ -17,6 +17,14 @@ const userSchema = mongoose.Schema(
               
 
         },
+        
+        google_auth: {
+            type: Boolean,
+            default: false
+        },
+
+
+
         password : {
             type : String,
             required : true,
